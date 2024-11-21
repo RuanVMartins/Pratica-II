@@ -1,5 +1,5 @@
 <?php
-$pdo = new PDO("mysql:host=localhost;dbname=empresa_financeira", "root", "");
+$pdo = new PDO("mysql:host=localhost;dbname=empresa_financeira", "root", "root");
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $id = $_POST['id'];
